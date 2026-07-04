@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "Nautilus Dash",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "NautilusDashPriNazhatiiKlavishi"
+    }
+  }
+}

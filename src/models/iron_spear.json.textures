@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "iron_spear"
+      },
+      "name": "default"
+    }
+  }
+}

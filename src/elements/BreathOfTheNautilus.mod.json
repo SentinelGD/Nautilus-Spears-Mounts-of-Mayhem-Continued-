@@ -1,0 +1,36 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Breath of the Nautilus",
+    "icon": "breath_of_the_nautilus",
+    "color": {
+      "value": -8201279,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": "CUSTOM:player_breathe"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "OXYGEN_BONUS"
+        },
+        "amount": 1024.0,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": {
+          "value": "MINING_EFFICIENCY"
+        },
+        "amount": 0.5,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

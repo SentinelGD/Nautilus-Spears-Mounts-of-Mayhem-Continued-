@@ -1,0 +1,71 @@
+{
+  "_fv": 79,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "golden_spear",
+    "customModelName": "golden_spear:default",
+    "guiTexture": "golden_spear_item",
+    "customProperties": {},
+    "states": [],
+    "name": "Golden Spear",
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 22,
+    "useDuration": 400,
+    "toolType": 1.0,
+    "damageCount": 32,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 1.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "onEntityHitWith": {
+      "name": "WoodenSpearPriUdariePoSushchnostiPriedmietom"
+    },
+    "onEntitySwing": {
+      "name": "SpearLKM"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow",
+    "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
+    "musicDiscLengthInTicks": 100,
+    "musicDiscAnalogOutput": 0,
+    "providedBannerPatterns": []
+  }
+}

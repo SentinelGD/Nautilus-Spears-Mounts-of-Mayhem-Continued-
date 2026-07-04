@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Lunge",
+    "supportedSlots": "any",
+    "weight": 5,
+    "anvilCost": 3,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "TAG:minecraft:spears"
+      }
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

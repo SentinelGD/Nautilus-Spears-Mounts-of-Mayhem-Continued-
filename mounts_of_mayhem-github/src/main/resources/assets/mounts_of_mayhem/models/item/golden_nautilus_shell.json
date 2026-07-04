@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mounts_of_mayhem:item/golden_nautilus_shell"
+  }
+}

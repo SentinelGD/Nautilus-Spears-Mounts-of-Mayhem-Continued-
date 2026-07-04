@@ -1,0 +1,1319 @@
+{
+  "mod_elements": [
+    {
+      "name": "SpearsTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spears_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/SpearsTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WoodenSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/advancement/recipes/wooden_spear_recipe.json",
+          "src/main/resources/data/mounts_of_mayhem/recipe/wooden_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "StoneSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/recipe/stone_spear_recipe.json",
+          "src/main/resources/data/mounts_of_mayhem/advancement/recipes/stone_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/recipe/copper_spear_recipe.json",
+          "src/main/resources/data/mounts_of_mayhem/advancement/recipes/copper_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/advancement/recipes/golden_spear_recipe.json",
+          "src/main/resources/data/mounts_of_mayhem/recipe/golden_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "IronSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/recipe/iron_spear_recipe.json",
+          "src/main/resources/data/mounts_of_mayhem/advancement/recipes/iron_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/advancement/recipes/diamond_spear_recipe.json",
+          "src/main/resources/data/mounts_of_mayhem/recipe/diamond_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/recipe/netherite_spear_recipe.json",
+          "src/main/resources/data/mounts_of_mayhem/advancement/recipes/netherite_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Nautilus",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nautilus",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/neoforge/biome_modifier/nautilus_biome_modifier.json",
+          "src/main/java/net/gospi/mountsofmayhem/entity/NautilusEntity.java",
+          "src/main/resources/assets/mounts_of_mayhem/models/item/nautilus_spawn_egg.json",
+          "src/main/java/net/gospi/mountsofmayhem/client/renderer/NautilusRenderer.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "CopperNautilusShell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nautilus_shell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mounts_of_mayhem/models/item/copper_nautilus_shell.json",
+          "src/main/java/net/gospi/mountsofmayhem/item/CopperNautilusShellItem.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "GoldenNautilusShell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_nautilus_shell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/item/GoldenNautilusShellItem.java",
+          "src/main/resources/assets/mounts_of_mayhem/models/item/golden_nautilus_shell.json"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "IronNautilusShell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_nautilus_shell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/item/IronNautilusShellItem.java",
+          "src/main/resources/assets/mounts_of_mayhem/models/item/iron_nautilus_shell.json"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "DiamondNautilusShell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_nautilus_shell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mounts_of_mayhem/models/item/diamond_nautilus_shell.json",
+          "src/main/java/net/gospi/mountsofmayhem/item/DiamondNautilusShellItem.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NetheriteNautilusShell",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_nautilus_shell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/item/NetheriteNautilusShellItem.java",
+          "src/main/resources/assets/mounts_of_mayhem/models/item/netherite_nautilus_shell.json"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "BreathOfTheNautilus",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breath_of_the_nautilus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/potion/BreathOfTheNautilusMobEffect.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "BreathOfTheNautilusKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breath_of_the_nautilus_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/BreathOfTheNautilusKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "ZombieNautilus",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "zombie_nautilus",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/client/renderer/ZombieNautilusRenderer.java",
+          "src/main/java/net/gospi/mountsofmayhem/entity/ZombieNautilusEntity.java",
+          "src/main/resources/assets/mounts_of_mayhem/models/item/zombie_nautilus_spawn_egg.json",
+          "src/main/resources/data/mounts_of_mayhem/neoforge/biome_modifier/zombie_nautilus_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Zombie"
+    },
+    {
+      "name": "ZombieNautilusRaiderSpawner",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "zombie_nautilus_raider_spawner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/ZombieNautilusRaiderSpawner.java"
+        ]
+      }
+    },
+    {
+      "name": "SpearDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/damage_type/spear_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "NautilusSpeedProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_speed_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusSpeedProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusDash",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_dash",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/network/NautilusDashMessage.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusDashPriNazhatiiKlavishi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_dash_pri_nazhatii_klavishi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusDashPriNazhatiiKlavishiProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "Lunge",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lunge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/enchantment/lunge.json"
+        ]
+      }
+    },
+    {
+      "name": "ParchedPriGibieliSushchnosti",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parched_pri_gibieli_sushchnosti",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/ParchedPriGibieliSushchnostiProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Parched"
+    },
+    {
+      "name": "Parched",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parched",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/neoforge/biome_modifier/parched_biome_modifier.json",
+          "src/main/java/net/gospi/mountsofmayhem/entity/ParchedEntityProjectile.java",
+          "src/main/java/net/gospi/mountsofmayhem/entity/ParchedEntity.java",
+          "src/main/java/net/gospi/mountsofmayhem/client/renderer/ParchedRenderer.java",
+          "src/main/resources/assets/mounts_of_mayhem/models/item/parched_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs/Parched"
+    },
+    {
+      "name": "ParchedPriNachalnomPrizyvieSushchnosti",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parched_pri_nachalnom_prizyvie_sushchnosti",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/ParchedPriNachalnomPrizyvieSushchnostiProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Parched"
+    },
+    {
+      "name": "SpearLKM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spear_lkm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/SpearLKMProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "WoodenSpear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wooden_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/item/WoodenSpearItem.java",
+          "src/main/resources/assets/mounts_of_mayhem/models/item/wooden_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenSpearPriUdariePoSushchnostiPriedmietom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_spear_pri_udarie_po_sushchnosti_priedmietom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/WoodenSpearPriUdariePoSushchnostiPriedmietomProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "StoneSpear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stone_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mounts_of_mayhem/models/item/stone_spear.json",
+          "src/main/java/net/gospi/mountsofmayhem/item/StoneSpearItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperSpear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "copper_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/item/CopperSpearItem.java",
+          "src/main/resources/assets/mounts_of_mayhem/models/item/copper_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenSpear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "golden_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mounts_of_mayhem/models/item/golden_spear.json",
+          "src/main/java/net/gospi/mountsofmayhem/item/GoldenSpearItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IronSpear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "iron_spear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/item/IronSpearItem.java",
+          "src/main/resources/assets/mounts_of_mayhem/models/item/iron_spear.json"
+        ]
+      }
+    },
+    {
+      "name": "DiamondSpear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "diamond_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mounts_of_mayhem/models/item/diamond_spear.json",
+          "src/main/java/net/gospi/mountsofmayhem/item/DiamondSpearItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NetheriteSpear",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "netherite_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mounts_of_mayhem/models/item/netherite_spear.json",
+          "src/main/java/net/gospi/mountsofmayhem/item/NetheriteSpearItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NautilusBabyUslovie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_baby_uslovie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusBabyUslovieProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusUslovie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_uslovie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusUslovieProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusSadledUslovie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_sadled_uslovie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusSadledUslovieProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusTestPriGibieliSushchnosti",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_test_pri_gibieli_sushchnosti",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusTestPriGibieliSushchnostiProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusTestPriShchielchkiePKMPoSushchnosti",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_test_pri_shchielchkie_pkm_po_sushchnosti",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusTestPriShchielchkiePKMPoSushchnostiProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusTestPriObnovlieniiTikaSushchnosti",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_test_pri_obnovlienii_tika_sushchnosti",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusTestPriObnovlieniiTikaSushchnostiProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "MobKebab",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_kebab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mounts_of_mayhem/advancement/mob_kebab.json"
+        ]
+      }
+    },
+    {
+      "name": "NautilusTestCopperUslovie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_test_copper_uslovie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusTestCopperUslovieProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusTestDiamondUslovie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_test_diamond_uslovie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusTestDiamondUslovieProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusTestGoldUslovie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_test_gold_uslovie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusTestGoldUslovieProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusTestIronUslovie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_test_iron_uslovie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusTestIronUslovieProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "NautilusTestNetheriteUslovie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_test_netherite_uslovie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusTestNetheriteUslovieProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "MobKebabProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mob_kebab_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/MobKebabProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "NautilusPriNachalnomPrizyvieSushchnosti",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nautilus_pri_nachalnom_prizyvie_sushchnosti",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/NautilusPriNachalnomPrizyvieSushchnostiProcedure.java"
+        ]
+      },
+      "path": "~/Mobs/Nautilus/Base"
+    },
+    {
+      "name": "ZombieHorseBurn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zombie_horse_burn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/gospi/mountsofmayhem/procedures/ZombieHorseBurnProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "player_breathe",
+      "files": [
+        "player_breathe"
+      ],
+      "category": "player",
+      "subtitle": "Player breathe"
+    },
+    {
+      "name": "item.spear.lunge",
+      "files": [
+        "spear_lunge3",
+        "spear_lunge2",
+        "spear_lunge1"
+      ],
+      "category": "player",
+      "subtitle": "Spear lunges"
+    },
+    {
+      "name": "entity.parched.ambient",
+      "files": [
+        "parched_ambient4",
+        "parched_ambient3",
+        "parched_ambient2",
+        "parched_ambient1"
+      ],
+      "category": "neutral",
+      "subtitle": "Parched Rattles the Bones"
+    },
+    {
+      "name": "entity.parched.hurt",
+      "files": [
+        "parched_hurt4",
+        "parched_hurt3",
+        "parched_hurt2",
+        "parched_hurt1"
+      ],
+      "category": "neutral",
+      "subtitle": "Parched is Hurted"
+    },
+    {
+      "name": "entity.parched.death",
+      "files": [
+        "parched_death"
+      ],
+      "category": "neutral",
+      "subtitle": "Parched Died"
+    },
+    {
+      "name": "entity.parched.step",
+      "files": [
+        "parched_step4",
+        "parched_step3",
+        "parched_step2",
+        "parched_step1"
+      ],
+      "category": "neutral",
+      "subtitle": "Parched Steps"
+    },
+    {
+      "name": "item.spear.hit",
+      "files": [
+        "spear_hit3",
+        "spear_hit2",
+        "spear_hit1"
+      ],
+      "category": "neutral",
+      "subtitle": "Spear hits"
+    },
+    {
+      "name": "item.spear.attack",
+      "files": [
+        "spear_attack3",
+        "spear_attack2",
+        "spear_attack1"
+      ],
+      "category": "neutral",
+      "subtitle": "​Spear jabs"
+    },
+    {
+      "name": "item.spear.use",
+      "files": [
+        "spear_use"
+      ],
+      "category": "neutral",
+      "subtitle": "Charges with Spear"
+    },
+    {
+      "name": "entity.nautilus.ambient",
+      "files": [
+        "nautilus_ambient8",
+        "nautilus_ambient7",
+        "nautilus_ambient6",
+        "nautilus_ambient5",
+        "nautilus_ambient4",
+        "nautilus_ambient3",
+        "nautilus_ambient2",
+        "nautilus_ambient1"
+      ],
+      "category": "neutral",
+      "subtitle": "Nautilus clacks"
+    },
+    {
+      "name": "entity.nautilus.dash",
+      "files": [
+        "nautilus_dash4",
+        "nautilus_dash3",
+        "nautilus_dash2",
+        "nautilus_dash1"
+      ],
+      "category": "neutral",
+      "subtitle": "​Nautilus jets"
+    },
+    {
+      "name": "entity.nautilus.hurt",
+      "files": [
+        "nautilus_hurt4",
+        "nautilus_hurt3",
+        "nautilus_hurt2",
+        "nautilus_hurt1"
+      ],
+      "category": "neutral",
+      "subtitle": "​Nautilus hurts"
+    },
+    {
+      "name": "entity.nautilus.death",
+      "files": [
+        "nautilus_death"
+      ],
+      "category": "neutral",
+      "subtitle": "Nautilus dies"
+    },
+    {
+      "name": "item.nautilus_saddle_equip",
+      "files": [
+        "nautilus_saddle_equip",
+        "nautilus_saddle_underwater_equip"
+      ],
+      "category": "neutral",
+      "subtitle": "​Saddle equips"
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:planks": [
+      "Blocks.PLANKS#0",
+      "Blocks.PLANKS#1",
+      "Blocks.PLANKS#2",
+      "Blocks.PLANKS#3",
+      "Blocks.PLANKS#4",
+      "Blocks.PLANKS#5",
+      "Blocks.CRIMSON_PLANKS",
+      "Blocks.WARPED_PLANKS",
+      "Blocks.MANGROVE_PLANKS",
+      "Blocks.CHERRY_PLANKS",
+      "Blocks.BAMBOO_PLANKS"
+    ],
+    "ITEMS:minecraft:stones": [
+      "Blocks.BLACKSTONE",
+      "Blocks.COBBLESTONE"
+    ],
+    "ITEMS:minecraft:spears": [
+      "CUSTOM:WoodenSpear",
+      "CUSTOM:StoneSpear",
+      "CUSTOM:CopperSpear",
+      "CUSTOM:GoldenSpear",
+      "CUSTOM:IronSpear",
+      "CUSTOM:DiamondSpear",
+      "CUSTOM:NetheriteSpear"
+    ],
+    "ENTITIES:minecraft:aquatic": [
+      "~CUSTOM:Nautilus"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~CUSTOM:ZombieNautilus"
+    ],
+    "ITEMS:bettercombat:spear": [
+      "CUSTOM:WoodenSpear",
+      "CUSTOM:StoneSpear",
+      "CUSTOM:CopperSpear",
+      "CUSTOM:GoldenSpear",
+      "CUSTOM:IronSpear",
+      "CUSTOM:DiamondSpear",
+      "CUSTOM:NetheriteSpear"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:Lunge"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:Lunge"
+    ],
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:Lunge"
+    ],
+    "ENTITIES:minecraft:can_breathe_under_water": [
+      "CUSTOM:Parched"
+    ],
+    "ENTITIES:minecraft:ignores_poison_and_regen": [
+      "CUSTOM:Parched"
+    ],
+    "ENTITIES:minecraft:inverted_healing_and_harm": [
+      "CUSTOM:Parched"
+    ],
+    "ENTITIES:minecraft:no_anger_from_wind_charge": [
+      "CUSTOM:Parched"
+    ],
+    "ENTITIES:minecraft:sensitive_to_smite": [
+      "CUSTOM:Parched"
+    ],
+    "ENTITIES:minecraft:skeletons": [
+      "CUSTOM:Parched"
+    ],
+    "ENTITIES:minecraft:wither_friends": [
+      "CUSTOM:Parched"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "CUSTOM:GoldenSpear"
+    ],
+    "ITEMS:minecraft:enchantable/durability": [
+      "~CUSTOM:NetheriteSpear",
+      "~CUSTOM:DiamondSpear",
+      "~CUSTOM:IronSpear",
+      "~CUSTOM:GoldenSpear",
+      "~CUSTOM:CopperSpear",
+      "~CUSTOM:StoneSpear",
+      "CUSTOM:WoodenSpear"
+    ],
+    "ITEMS:minecraft:nautilus_armor": [
+      "CUSTOM:CopperNautilusShell",
+      "CUSTOM:GoldenNautilusShell",
+      "CUSTOM:IronNautilusShell",
+      "CUSTOM:DiamondNautilusShell",
+      "CUSTOM:NetheriteNautilusShell"
+    ]
+  },
+  "tab_element_order": {
+    "COMBAT": [
+      "CopperNautilusShell",
+      "IronNautilusShell",
+      "GoldenNautilusShell",
+      "DiamondNautilusShell",
+      "NetheriteNautilusShell",
+      "WoodenSpear",
+      "StoneSpear",
+      "CopperSpear",
+      "GoldenSpear",
+      "IronSpear",
+      "DiamondSpear",
+      "NetheriteSpear"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.mounts_of_mayhem.nautilus_spawn_egg": "Nautilus Spawn Egg",
+      "entity.mounts_of_mayhem.nautilus": "Nautilus",
+      "item.mounts_of_mayhem.copper_nautilus_shell": "Copper nautilus shell",
+      "item.mounts_of_mayhem.golden_nautilus_shell": "Golden nautilus shell",
+      "item.mounts_of_mayhem.iron_nautilus_shell": "Iron nautilus shell",
+      "item.mounts_of_mayhem.diamond_nautilus_shell": "Diamond nautilus shell",
+      "item.mounts_of_mayhem.netherite_nautilus_shell": "Netherite nautilus shell",
+      "subtitles.player_breathe": "Player breathe",
+      "effect.mounts_of_mayhem.breath_of_the_nautilus": "Breath of the Nautilus",
+      "entity.mounts_of_mayhem.zombie_nautilus": "Zombie nautilus",
+      "item.mounts_of_mayhem.zombie_nautilus_spawn_egg": "Zombie nautilus Spawn Egg",
+      "death.attack.spear_damage.item": "%1$s was stabbed by %2$s using %3$s",
+      "death.attack.spear_damage.player": "%1$s stabbed to death by %2$s",
+      "death.attack.spear_damage": "%1$s stabbed",
+      "key.mounts_of_mayhem.nautilus_dash": "Nautilus Dash",
+      "enchantment.mounts_of_mayhem.lunge": "Lunge",
+      "item.mounts_of_mayhem.parched_spawn_egg": "Parched Spawn Egg",
+      "entity.mounts_of_mayhem.parched": "Parched",
+      "subtitles.item.spear.lunge": "Spear lunges",
+      "subtitles.entity.parched.ambient": "Parched Rattles the Bones",
+      "subtitles.entity.parched.hurt": "Parched is Hurted",
+      "subtitles.entity.parched.death": "Parched Died",
+      "subtitles.entity.parched.step": "Parched Steps",
+      "subtitles.item.spear.hit": "Spear hits",
+      "subtitles.item.spear.attack": "​Spear jabs",
+      "subtitles.item.spear.use": "Charges with Spear",
+      "item.mounts_of_mayhem.wooden_spear": "Wooden Spear",
+      "item.mounts_of_mayhem.stone_spear": "Stone Spear",
+      "item.mounts_of_mayhem.copper_spear": "Copper Spear",
+      "item.mounts_of_mayhem.golden_spear": "Golden Spear",
+      "item.mounts_of_mayhem.iron_spear": "Iron Spear",
+      "item.mounts_of_mayhem.diamond_spear": "Diamond Spear",
+      "item.mounts_of_mayhem.netherite_spear": "Netherite Spear",
+      "nautilus.dash": "You can already use the dash by tapping on Space",
+      "subtitles.entity.nautilus.ambient": "Nautilus clacks",
+      "subtitles.entity.nautilus.dash": "​Nautilus jets",
+      "subtitles.entity.nautilus.hurt": "​Nautilus hurts",
+      "subtitles.entity.nautilus.death": "Nautilus dies",
+      "subtitles.item.nautilus_saddle_equip": "​Saddle equips",
+      "advancements.mob_kebab.title": "Mob Kebab",
+      "advancements.mob_kebab.descr": "Hit the mob with a spear"
+    },
+    "ru_ru": {
+      "item.mounts_of_mayhem.nautilus_spawn_egg": "Яйцо призыва наутилуса",
+      "entity.mounts_of_mayhem.nautilus": "Наутилус",
+      "item.mounts_of_mayhem.copper_nautilus_shell": "Медная ракушка наутилуса",
+      "item.mounts_of_mayhem.golden_nautilus_shell": "Золотая ракушка наутилуса",
+      "item.mounts_of_mayhem.iron_nautilus_shell": "Железная ракушка наутилуса",
+      "item.mounts_of_mayhem.diamond_nautilus_shell": "Алмазная ракушка наутилуса",
+      "item.mounts_of_mayhem.netherite_nautilus_shell": "Незеритовая ракушка наутилуса",
+      "subtitles.player_breathe": "Дыхание игрока",
+      "effect.mounts_of_mayhem.breath_of_the_nautilus": "Дыхание наутилуса",
+      "entity.mounts_of_mayhem.zombie_nautilus": "Зомби наутилус",
+      "item.mounts_of_mayhem.zombie_nautilus_spawn_egg": "Яйцо призыва зомби наутилуса",
+      "death.attack.spear_damage.item": "%1$ был пронзён %2$ используя %3$",
+      "death.attack.spear_damage.player": "%1$ был пронзён %2$",
+      "death.attack.spear_damage": "%1$ пронзён",
+      "key.mounts_of_mayhem.nautilus_dash": "Рывок наутилуса",
+      "enchantment.mounts_of_mayhem.lunge": "Выпад",
+      "item.mounts_of_mayhem.parched_spawn_egg": "Яйцо призыва барханника",
+      "entity.mounts_of_mayhem.parched": "Барханник",
+      "subtitles.item.spear.lunge": "Выпады копьём",
+      "subtitles.entity.parched.ambient": "Барханник стучит костями",
+      "subtitles.entity.parched.hurt": "Барханник ранен",
+      "subtitles.entity.parched.death": "Барханник умер",
+      "subtitles.entity.parched.step": "Шаги барханника",
+      "subtitles.item.spear.hit": "​Удары копьём",
+      "subtitles.item.spear.attack": "​Удары копьём",
+      "subtitles.item.spear.use": "Возобновление копья",
+      "item.mounts_of_mayhem.wooden_spear": "Деревянное копьё",
+      "item.mounts_of_mayhem.stone_spear": "Каменное копьё",
+      "item.mounts_of_mayhem.copper_spear": "Медное копьё",
+      "item.mounts_of_mayhem.golden_spear": "Золотое копьё",
+      "item.mounts_of_mayhem.iron_spear": "Железное копьё",
+      "item.mounts_of_mayhem.diamond_spear": "Алмазное копьё",
+      "item.mounts_of_mayhem.netherite_spear": "Незеритовое копьё",
+      "nautilus.dash": "Вы уже можете использовать рывок нажав на Space",
+      "subtitles.entity.nautilus.ambient": "Наутилус щебечет",
+      "subtitles.entity.nautilus.dash": "Наутилус совершил рывок",
+      "subtitles.entity.nautilus.hurt": "Наутилус ранен",
+      "subtitles.entity.nautilus.death": "Наутилус погиб",
+      "subtitles.item.nautilus_saddle_equip": "Седло экипированно",
+      "advancements.mob_kebab.title": "Ммм... Кебаб",
+      "advancements.mob_kebab.descr": "Ударь моба копьём"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/gospi/mountsofmayhem/mixin/PlayerAnimationMixin.java",
+      "src/main/java/net/gospi/mountsofmayhem/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/net/gospi/mountsofmayhem/network/LoadPlayerAnimationMessage.java",
+      "src/main/java/net/gospi/mountsofmayhem/init/MountsOfMayhemModModels.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/gospi/mountsofmayhem/MountsOfMayhemModPlayerAnimationAPI.java",
+      "src/main/java/net/gospi/mountsofmayhem/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/java/net/gospi/mountsofmayhem/init/MountsOfMayhemModSounds.java",
+      "src/main/resources/mounts_of_mayhem.mixins.json",
+      "src/main/java/net/gospi/mountsofmayhem/MountsOfMayhemMod.java",
+      "src/main/resources/assets/mounts_of_mayhem/sounds.json",
+      "src/main/java/net/gospi/mountsofmayhem/init/MountsOfMayhemModTabs.java",
+      "src/main/java/net/gospi/mountsofmayhem/init/MountsOfMayhemModKeyMappings.java",
+      "src/main/java/net/gospi/mountsofmayhem/init/MountsOfMayhemModMobEffects.java",
+      "src/main/java/net/gospi/mountsofmayhem/init/MountsOfMayhemModItems.java",
+      "src/main/java/net/gospi/mountsofmayhem/init/MountsOfMayhemModEntities.java",
+      "src/main/java/net/gospi/mountsofmayhem/init/MountsOfMayhemModEntityRenderers.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "Nautilus",
+            "children": [
+              {
+                "name": "Base",
+                "children": []
+              },
+              {
+                "name": "Zombie",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Parched",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mounts_of_mayhem",
+    "modName": "Mounts of Mayhem",
+    "version": "1.9.7",
+    "author": "Gospi_",
+    "websiteURL": "https://discord.gg/xWzV3h7kBa",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "breath_of_the_nautilus",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created for all",
+    "modElementsPackage": "net.gospi.mountsofmayhem"
+  },
+  "mcreatorVersion": 202500228610
+}

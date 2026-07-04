@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mounts_of_mayhem:golden_nautilus_shell",
+    "mounts_of_mayhem:netherite_nautilus_shell",
+    "mounts_of_mayhem:iron_nautilus_shell",
+    "mounts_of_mayhem:diamond_nautilus_shell",
+    "mounts_of_mayhem:copper_nautilus_shell"
+  ]
+}

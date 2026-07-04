@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "mounts_of_mayhem:stone_spear",
+    "mounts_of_mayhem:wooden_spear",
+    "mounts_of_mayhem:copper_spear",
+    "mounts_of_mayhem:golden_spear",
+    "mounts_of_mayhem:iron_spear",
+    "mounts_of_mayhem:netherite_spear",
+    "mounts_of_mayhem:diamond_spear"
+  ]
+}

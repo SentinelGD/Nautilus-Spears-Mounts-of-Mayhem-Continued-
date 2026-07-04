@@ -1,0 +1,15 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "desert",
+    "badlands",
+    "eroded_badlands",
+    "wooded_badlands"
+  ],
+  "spawners": {
+    "type": "mounts_of_mayhem:parched",
+    "weight": 100,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.NETHERITE_UPGRADE"
+      },
+      {
+        "value": "CUSTOM:DiamondSpear"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:DiamondSpear"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.NETHERITE_INGOT"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.NETHERITE_UPGRADE"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:NetheriteSpear"
+    },
+    "name": "netherite_spear_recipe",
+    "namespace": "mod"
+  }
+}

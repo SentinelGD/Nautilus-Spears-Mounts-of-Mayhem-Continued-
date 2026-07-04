@@ -1,0 +1,50 @@
+[
+  {
+    "command": "fill 225 63 -494 225 65 -494 white_wool"
+  },
+  {
+    "command": "fill 225 63 -492 225 65 -492 white_wool"
+  },
+  {
+    "command": "fill 234 63 -494 234 65 -494 white_wool"
+  },
+  {
+    "command": "fill 234 63 -492 234 65 -492 white_wool"
+  },
+  {
+    "command": "fill 243 63 -494 243 65 -494 white_wool"
+  },
+  {
+    "command": "fill 243 63 -492 243 65 -492 white_wool"
+  },
+  {
+    "command": "fill 252 63 -494 252 65 -494 white_wool"
+  },
+  {
+    "command": "fill 252 63 -492 252 65 -492 white_wool"
+  },
+  {
+    "command": "fill 261 63 -494 261 65 -494 white_wool"
+  },
+  {
+    "command": "fill 261 63 -492 261 65 -492 white_wool"
+  },
+  {
+    "command": "fill 270 63 -494 270 65 -494 white_wool"
+  },
+  {
+    "command": "fill 270 63 -492 270 65 -492 white_wool"
+  },
+  {
+    "command": "fill 225 65 -494 270 65 -492 white_wool"
+  },
+  {
+    "command": "fill 225 65 -495 270 67 -495 white_wool"
+  },
+  {
+    "command": "fill 225 65 -491 270 67 -491 white_wool"
+  },
+  {
+    "command": "fill 225 63 -494 270 64 -492 white_wool"
+  }
+]

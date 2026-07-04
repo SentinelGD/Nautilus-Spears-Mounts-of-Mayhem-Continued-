@@ -1,0 +1,101 @@
+plugins {
+    id 'java-library'
+    id 'eclipse'
+    id 'idea'
+    id 'net.neoforged.gradle.userdev' version '7.0.173'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.toolchain.vendor = JvmVendorSpec.ADOPTIUM
+
+// ═══════════════════════════════════════════════════════════
+// Nautilus & Spears mod
+// ═══════════════════════════════════════════════════════════
+base {
+    archivesName = 'mounts_of_mayhem'
+}
+
+group = 'net.gospi.mountsofmayhem'
+version = '1.9.8-fixed'
+
+runs {
+    configureEach {
+        systemProperty 'forge.logging.markers', 'REGISTRIES'
+        systemProperty 'forge.logging.console.level', 'debug'
+        modSource project.sourceSets.main
+    }
+
+    client {
+        systemProperty 'forge.enabledGameTestNamespaces', project.group
+    }
+
+    server {
+        systemProperty 'forge.enabledGameTestNamespaces', project.group
+        arguments '--nogui'
+    }
+}
+
+dependencies {
+    implementation "net.neoforged:neoforge:${neo_version}"
+}
+
+repositories {
+    mavenLocal()
+    maven { url = 'https://maven.neoforged.net/releases' }
+    mavenCentral()
+}
+
+tasks.withType(ProcessResources).configureEach {
+    var replaceProperties = [
+            minecraft_version: minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version: neo_version,
+            neo_version_range: neo_version_range,
+            loader_version_range: loader_version_range,
+            mod_id: mod_id,
+            mod_name: mod_name,
+            mod_license: mod_license,
+            mod_version: version,
+            mod_authors: mod_authors,
+            mod_description: mod_description,
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/neoforge.mods.toml']) {
+        expand replaceProperties
+    }
+}
+
+// ═══════════════════════════════════════════════════════════
+// WorldAPI mod (builds separately using same dependencies)
+// ═══════════════════════════════════════════════════════════
+sourceSets {
+    worldapi {
+        java {
+            srcDirs = ['src/main/java']
+            include 'net/gospi/worldapi/**'
+        }
+        resources {
+            srcDirs = ['src/worldapi-resources']
+        }
+        compileClasspath = sourceSets.main.compileClasspath
+        runtimeClasspath = sourceSets.main.runtimeClasspath
+    }
+}
+
+task worldapiJar(type: Jar) {
+    archiveBaseName = 'worldapi'
+    archiveVersion = '1.0.0'
+    from sourceSets.worldapi.output
+    manifest {
+        attributes 'Implementation-Title': 'WorldAPI',
+                   'Implementation-Version': '1.0.0'
+    }
+}
+
+tasks.named('compileWorldapiJava') {
+    sourceCompatibility = '21'
+    targetCompatibility = '21'
+}
+
+build.dependsOn worldapiJar

@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_set_attribute_base_value\"><field name=\"attribute\">MAX_HEALTH</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"value\"><block type=\"math_random_int_between\"><value name=\"min\"><block type=\"math_number\"><field name=\"NUM\">10</field></block></value><value name=\"max\"><block type=\"math_number\"><field name=\"NUM\">15</field></block></value></block></value></block></next></block><block type=\"math_dual_ops\" x=\"753\" y=\"209\"><field name=\"OP\">MINUS</field><value name=\"A\"><block type=\"entity_get_attribute_base_value\"><field name=\"attribute\">MAX_HEALTH</field><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></value></block><block type=\"math_number\" x=\"657\" y=\"358\"><field name=\"NUM\">0</field></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

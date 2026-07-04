@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - mounts_of_mayhem",
+        "order": 0
+      },
+      "projectName": "mounts_of_mayhem",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\osnova\\Workspace\\mounts_of_mayhem\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\osnova\\Workspace\\mounts_of_mayhem\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%D:\\osnova\\Workspace\\mounts_of_mayhem\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - mounts_of_mayhem",
+        "order": 1
+      },
+      "projectName": "mounts_of_mayhem",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@D:\\osnova\\Workspace\\mounts_of_mayhem\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@D:\\osnova\\Workspace\\mounts_of_mayhem\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%D:\\osnova\\Workspace\\mounts_of_mayhem\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

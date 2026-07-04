@@ -1,0 +1,249 @@
+{
+  "_fv": 79,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Nautilus",
+    "mobLabel": "",
+    "mobModelName": "ModelNautilus",
+    "mobModelTexture": "nautilus.png",
+    "transparentModelCondition": {
+      "fixedValue": false
+    },
+    "isShakingCondition": {
+      "fixedValue": false
+    },
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
+    "visualScale": {
+      "fixedValue": 1.0
+    },
+    "boundingBoxScale": {
+      "fixedValue": 1.0
+    },
+    "modelLayers": [
+      {
+        "model": "Default",
+        "texture": "nautilus_saddle.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "NautilusSadledUslovie"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "nautilus_copper.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "NautilusTestCopperUslovie"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "nautilus_iron.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "NautilusTestIronUslovie"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "nautilus_gold.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "NautilusTestGoldUslovie"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "nautilus_diamond.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "NautilusTestDiamondUslovie"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "nautilus_netherite.png",
+        "disableHurtOverlay": false,
+        "glow": false,
+        "condition": {
+          "name": "NautilusTestNetheriteUslovie"
+        }
+      },
+      {
+        "model": "Default",
+        "texture": "nautilus.png",
+        "disableHurtOverlay": false,
+        "glow": false
+      }
+    ],
+    "animations": [
+      {
+        "animation": {
+          "value": "CUSTOM:NautilusAnimation.idle"
+        },
+        "speed": 1.0,
+        "walking": false,
+        "amplitude": 1.0
+      }
+    ],
+    "modelWidth": 1.1,
+    "modelHeight": 1.2000000000000002,
+    "modelShadowSize": 0.5,
+    "mountedYOffset": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -65806,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1089459,
+      "falpha": 0.0
+    },
+    "creativeTabs": [
+      {
+        "value": "MISC"
+      }
+    ],
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "WATER",
+    "attackStrength": 3,
+    "attackKnockback": 0.6,
+    "knockbackResistance": 0.1,
+    "movementSpeed": 0.7,
+    "stepHeight": 0.6,
+    "armorBaseValue": 0.0,
+    "trackingRange": 16,
+    "followRange": 8,
+    "health": 12,
+    "xpAmount": 3,
+    "waterMob": true,
+    "breatheUnderwater": {
+      "fixedValue": true
+    },
+    "pushedByFluids": {
+      "fixedValue": false
+    },
+    "flyingMob": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 99,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": false,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": false,
+    "immuneToWither": false,
+    "immuneToDragonBreath": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": "CUSTOM:entity.nautilus.ambient"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:entity.nautilus.hurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:entity.nautilus.death"
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "raidCelebrationSound": {
+      "value": ""
+    },
+    "entityDataEntries": [],
+    "whenMobDies": {
+      "name": "NautilusTestPriGibieliSushchnosti"
+    },
+    "onMobTickUpdate": {
+      "name": "NautilusTestPriObnovlieniiTikaSushchnosti"
+    },
+    "onInitialSpawn": {
+      "name": "NautilusPriNachalnomPrizyvieSushchnosti"
+    },
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"swim\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPufferfish</field><field name=\"condition\">null,null</field><next><block type=\"follow_parent\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"breed\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"try_and_find_water\"><field name=\"condition\">null,null</field><next><block type=\"follow_item_in_hands\"><field name=\"speed\">1</field><field name=\"scared\">FALSE</field><field name=\"condition\">null,null</field><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">Items.FISH#3</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "tameable": true,
+    "breedTriggerItems": [
+      {
+        "value": "Items.FISH#3"
+      },
+      {
+        "value": "Items.PUFFERFISH_BUCKET"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "rangedAttackInterval": 20,
+    "rangedAttackRadius": 10.0,
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 12,
+    "mobSpawningType": "waterCreature",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [
+      {
+        "value": "#minecraft:is_ocean"
+      }
+    ],
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    }
+  }
+}

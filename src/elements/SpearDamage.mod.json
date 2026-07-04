@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.5,
+    "scaling": "when_caused_by_living_non_player",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s stabbed",
+    "itemDeathMessage": "%1$s was stabbed by %2$s using %3$s",
+    "playerDeathMessage": "%1$s stabbed to death by %2$s"
+  }
+}

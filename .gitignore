@@ -1,4 +1,6 @@
 src/build/
+src/src/main/java/net/gospi/worldapi/
+src/src/worldapi-resources/
 .gradle/
 .idea/
 *.iml
